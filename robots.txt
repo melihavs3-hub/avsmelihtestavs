@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap:https://www.avsglobalsupply.com/sitemap
+Sitemap:https://www.avsglobalsupply.com/tr/sitemap

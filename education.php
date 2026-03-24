@@ -1,0 +1,316 @@
+<?php 
+$title = "Seafarers Education - AVS";
+$description = "";
+$canonical ="https://www.avsglobalsupply.com/education";
+$eng_link="https://www.avsglobalsupply.com/education";
+$tr_link="https://www.avsglobalsupply.com/tr/egitim";
+$sri_link="https://www.avssrilanka.com/education";
+$gr_link="https://www.avsgreece.gr/education";
+include 'header.php';
+?>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "EKOL Maritime Training Centre",
+  "description": "Unlock the full potential of your crew with our seafarer education and cook programs. We offer more than training; we provide the keys to a safer, more efficient, and fulfilling career in the maritime industry.",
+  "url": "https://www.ekoldenizcilik.com.tr",
+  "logo": "https://www.avsglobalsupply.com/assets/images/avs-logo-big.webp",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Soganlik Yeni Mah, Pamukkale Sk. No:2, Kartal",
+    "addressLocality": "Istanbul",
+    "addressRegion": "IST",
+    "postalCode": "34880",
+    "addressCountry": "TR"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+90-216-591-0849",
+    "contactType": "customer service",
+    "availableLanguage": ["English", "Turkish"]
+  },
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "AVS Global Supply",
+    "url": "http://www.avsglobalsupply.com"
+  },
+  "hasCourse": [
+    {
+      "@type": "Course",
+      "name": "Officers in Charge of Navigational Watch (IMO Model course 7.03)",
+      "description": "Comprehensive training for officers responsible for navigational watch."
+    },
+    {
+      "@type": "Course",
+      "name": "Officers in Charge of Engineering Watch (IMO Model course 7.04)",
+      "description": "Training for engineering officers to ensure efficient engine watch management."
+    },
+    {
+      "@type": "Course",
+      "name": "Safety and Security Training",
+      "description": "Courses covering maritime safety and security standards."
+    },
+    {
+      "@type": "Course",
+      "name": "Medical and Health Training",
+      "description": "Training for medical and health practices aboard ships."
+    },
+    {
+      "@type": "Course",
+      "name": "Simulation and Navigation Training",
+      "description": "Simulated training to enhance navigational skills."
+    },
+    {
+      "@type": "Course",
+      "name": "Engine and Technical Training",
+      "description": "Technical training for engine room and equipment management."
+    },
+    {
+      "@type": "Course",
+      "name": "Operational and Compliance Training",
+      "description": "Courses to ensure compliance with international maritime regulations."
+    },
+    {
+      "@type": "Course",
+      "name": "Advanced and Specialized Training",
+      "description": "Advanced training for specialized maritime roles."
+    },
+    {
+      "@type": "Course",
+      "name": "Career and Role-Specific Training",
+      "description": "Role-specific courses for career advancement."
+    },
+    {
+      "@type": "Course",
+      "name": "Certification and Compliance Training",
+      "description": "Training for obtaining maritime certifications."
+    },
+    {
+      "@type": "Course",
+      "name": "Basic and Refresher Training",
+      "description": "Basic courses and refreshers to maintain up-to-date skills."
+    },
+    {
+      "@type": "Course",
+      "name": "Corporate Training",
+      "description": "Corporate courses tailored for maritime organizations."
+    },
+    {
+      "@type": "Course",
+      "name": "Chef / Cook / Steward / Housekeeping Training",
+      "description": "Training for hospitality roles aboard maritime vessels."
+    }
+  ]
+}
+</script>
+<style>
+.text-box h3{margin-top: 23px;}
+</style>
+<!-- page-title -->
+        <section class="page-title">
+            <div class="bg-layer" style="background-image: url(assets/images/background/12.webp);"></div>
+            <div class="auto-container">
+                <div class="content-box">
+                    <h1>Seafarer Education</h1>
+                    <ul class="bread-crumb clearfix">
+                        <li><a href="/">Home</a></li>
+                        <li>Services</li>
+                        <li>Seafarer Education</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- page-title end -->
+
+
+        <!-- service-details -->
+        <section class="service-details sec-pad">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-8 col-md-12 col-sm-12 content-side">
+                        <div class="service-details-content">
+                            <div class="content-one">
+                                <figure class="image-box"><img src="assets/images/service/service08.webp" alt="Seafarers Education"></figure>
+                                <div class="text-box">
+                                    <h2>Seafarer Education</h2>
+                                    <p class="bold-text">EKOL Maritime Training Centre</p>
+                                    <p>Unlock the full potential of your crew with our seafarer education and cook programs. We offer more than training; we provide the keys to a safer, more efficient and fulfilling career in the maritime  industry. Through our crew evaluation services and training programs, your team will meet global industry standards, armed with knowledge and skills that propel both personal and professional growth.</p>
+									<br>We have the capacity to train over 650 trainees across 120 accredited IMO model courses, STCW- and non-STCW certificates, such as:</br>
+							   </div>
+                            </div>
+                            <div class="content-three">
+                                <div class="inner-box">
+                                    <div class="single-item">Officers in Charge of Navigational Watch (IMO Model course 7.03)</div>
+                                    <div class="single-item">Officers in Charge of Engineering Watch (IMO Model course 7.04)</div>
+									<div class="single-item">Safety and Security Training</div>
+									<div class="single-item">Medical and Health Training</div>
+									<div class="single-item">Simulation and Navigation Training</div>
+									<div class="single-item">Engine and Technical Training</div>
+									<div class="single-item">Operational and Compliance Training</div>
+									<div class="single-item">Advanced and Specialized Training</div>
+									<div class="single-item">Career and Role-Specific Training</div>
+									<div class="single-item">Certification and Compliance Training</div>
+									<div class="single-item">Basic and Refresher Training</div>
+									<div class="single-item">Corporate Training</div>
+									<div class="single-item">Chef / Cook / Steward / Housekeeping Training</div>
+									<li><a href="https://ekoldenizcilik.com.tr/" target="_blank" rel="noopener"><span>www.ekoldenizcilik.com.tr</span></a></li>
+                                </div>
+                            </div>
+							<div class="content-four">
+                                <div class="upper-box">
+                                    <h4>Wide range of products at lower cost</h4>
+                                    <p>Your operational success is our commitment; contact us today to experience the AVS advantage.</p>
+                                </div>
+                                <div class="tabs-box">
+                                    <div class="tab-btns tab-buttons clearfix">
+                                        <div class="tab-btn active-btn" data-tab="#tab-1">Reliable Services</div>
+                                        <div class="tab-btn" data-tab="#tab-2">Flexible Solutions</div>
+                                        <div class="tab-btn" data-tab="#tab-3">Global Network</div>
+                                        <div class="tab-btn" data-tab="#tab-4">Sectors We Serve</div>
+                                    </div>
+                                    <div class="tabs-content">
+                                        <div class="tab active-tab" id="tab-1">
+                                            <div class="text-box">
+                                                <p>AVS provides reliable service with its extensive experience and strong relationships in the maritime sector. We aim to always offer our customers quality and reliable solutions.</p>
+                                            </div>
+                                        </div>
+                                        <div class="tab" id="tab-2">
+                                            <div class="text-box">
+                                                <p>We offer flexible solutions tailored to the unique needs of each customer. AVS develops customized approaches to meet the demands of our customers.</p>
+                                            </div>
+                                        </div>
+                                        <div class="tab" id="tab-3">
+                                            <div class="text-box">
+                                                <p>AVS has a wide-reaching network, servicing over 1,500 ports worldwide. This global network enables us to deliver services to our customers quickly and efficiently.</p>
+                                            </div>
+                                        </div>
+										<div class="tab" id="tab-4">
+                                            <div class="text-box">
+                                                <h3>Trade and Transport</h3>
+												<p>
+													<ul>
+													  <li><strong>Merchant Vessels</strong></li>
+													  <li><strong>Tankers</strong></li>
+													  <li><strong>Dry Bulks</strong></li>
+													  <li><strong>Liners</strong></li>
+													  <li><strong>Platform Supply Vessels</strong></li>
+													  <li><strong>Container Ships</strong></li>
+													  <li><strong>Ro-Ro Ships (Roll-on/Roll-off)</strong></li>
+													</ul>
+												</p>
+													<h3>Tourism and Passenger Transport</h3>
+												<p>
+													<ul>
+													  <li><strong>Cruises</strong></li>
+													  <li><strong>Ferries</strong></li>
+													  <li><strong>Yachts</strong></li>
+													</ul>
+												</p>
+
+													<h3>Energy and Oil Industry</h3>
+												<p>
+													<ul>
+													  <li><strong>Tankers</strong></li>
+													  <li><strong>Drilling Vessels</strong></li>
+													  <li><strong>Floating Production Storage and Offloading (FPSO)</strong></li>
+													  <li><strong>Anchor Handling Tug Supply Vessels (AHTS)</strong></li>
+													  <li><strong>Pipe Lay Vessels / Barge</strong></li>
+													  <li><strong>Offshore Support Vessels</strong></li>
+													  <li><strong>Floating Liquefied Natural Gas (FLNG) Vessels</strong></li>
+													</ul>
+												</p>
+
+													<h3>Scientific Research and Exploration</h3>
+												<p>
+													<ul>
+													  <li><strong>Seismic Research Vessels</strong></li>
+													  <li><strong>Submersibles</strong></li>
+													  <li><strong>Jackups</strong></li>
+													  <li><strong>Semi Submersibles</strong></li>
+													  <li><strong>Research Vessels</strong></li>
+													</ul>
+												</p>
+
+													<h3>Military and Government Services</h3>
+												<p>
+													<ul>
+													  <li><strong>Government Vessels</strong></li>
+													  <li><strong>Patrol Vessels</strong></li>
+													  <li><strong>Frigates</strong></li>
+													  <li><strong>Submarines</strong></li>
+													</ul>
+												</p>
+
+													<h3>Environment and Marine Management</h3>
+												<p>
+													<ul>
+													  <li><strong>Dredgers</strong></li>
+													  <li><strong>Environmental Research Vessels</strong></li>
+													</ul>
+												</p>
+
+													<h3>Logistics and Support Services</h3>
+												<p>
+													<ul>
+													  <li><strong>Tenders</strong></li>
+													  <li><strong>Multi-Purpose Supply Vessel (MPSV)</strong></li>
+													  <li><strong>Ship Managers</strong></li>
+													  <li><strong>Salvage Vessels</strong></li>
+													  <li><strong>Tugboats</strong></li>
+													</ul>
+												</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
+                        <div class="service-sidebar">
+                            <div class="sidebar-widget category-widget">
+                                <ul class="category-list clearfix">
+                                    <li><a href="https://www.avsglobalsupply.com/globalsupply"><span>Global Supply</span><i class="flaticon-diagonal-arrow"></i></a></li>
+                                    <li><a href="https://www.avsglobalsupply.com/provision"><span>Provision Management</span><i class="flaticon-diagonal-arrow"></i></a></li>
+                                    <li><a href="https://www.avsglobalsupply.com/tsm"><span>Tech. Stores Management</span><i class="flaticon-diagonal-arrow"></i></a></li>
+                                    <li><a href="https://www.avsglobalsupply.com/technical"><span>Technical Services</span><i class="flaticon-diagonal-arrow"></i></a></li>
+									<li><a href="https://www.avsglobalsupply.com/onoffshore"><span>On/Offshore Catering</span><i class="flaticon-diagonal-arrow"></i></a></li>
+									<li><a href="https://www.avsglobalsupply.com/food"><span>Food Trading</span><i class="flaticon-diagonal-arrow"></i></a></li>
+									<li><a href="https://www.avsglobalsupply.com/logistics"><span>Logistics Services</span><i class="flaticon-diagonal-arrow"></i></a></li>
+									<li><a href="https://www.avsglobalsupply.com/education" class="current"><span>Seafarer Education</span><i class="flaticon-diagonal-arrow"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="download-widget">
+                                <ul class="download-list clearfix">
+									<li>
+										<div class="icon"><i class="avs_2024-pdf"></i></div>
+										<h5>2024 Brochure</h5>
+										<a href="assets/files/avs_2024.pdf" target="_blank" rel="noopener"><button type="button"><i class="flaticon-download"></i></button></a>
+									</li>
+									<li>
+										<div class="icon"><i class="avs_jis_dinvalves-pdf"></i></div>
+										<h5>JIS & DIN Valves</h5>
+										<a href="assets/files/avs_jis_dinvalves.pdf" target="_blank" rel="noopener"><button type="button"><i class="flaticon-download"></i></button></a>
+									</li>
+									<li>
+										<div class="icon"><i class="avs_marine_rubber_spareparts-pdf"></i></div>
+										<h5>Marine Rubber & S. P.</h5>
+										<a href="assets/files/avs_marine_rubber_spareparts.pdf" target="_blank" rel="noopener"><button type="button"><i class="flaticon-download"></i></button></a>
+									</li>
+									<li>
+										<div class="icon"><i class="avsropes-pdf"></i></div>
+										<h5>Ropes</h5>
+										<a href="assets/files/avsropes.pdf "target="_blank" rel="noopener"><button type="button"><i class="flaticon-download"></i></button></a>
+									</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- service-details end -->
+
+<?php include 'footer.php'; ?>
+

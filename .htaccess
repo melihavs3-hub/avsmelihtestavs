@@ -1,0 +1,158 @@
+<IfModule mod_headers.c>
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+</IfModule>
+
+RewriteEngine On
+
+
+<IfModule mod_rewrite.c>
+  RewriteCond %{HTTP_ACCEPT} image/webp
+  RewriteCond %{DOCUMENT_ROOT}/$1.webp -f
+  RewriteRule ^(assets/images/.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header append Vary Accept env=REDIRECT_accept
+</IfModule>
+
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)/?$ $1.php [L]
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+
+
+RewriteCond %{REQUEST_URI} !^/send\.php$ [NC]
+RewriteCond %{REQUEST_URI} !^/TG\.php$ [NC]
+RewriteCond %{REQUEST_URI} !^/Exception\.php$ [NC]
+RewriteCond %{REQUEST_URI} !^/PHPMailer\.php$ [NC]
+RewriteCond %{REQUEST_URI} !^/SMTP\.php$ [NC]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^\.]+)$ $1.php [L]
+
+RewriteCond %{THE_REQUEST} \s/+(.*?/)?(?:index)?(.*?)\.php[\s?/] [NC]
+RewriteCond %2 !^(send)$ [NC]
+RewriteCond %2 !^(TG)$ [NC]
+RewriteCond %2 !^(Exception)$ [NC]
+RewriteCond %2 !^(PHPMailer)$ [NC]
+RewriteCond %2 !^(SMTP)$ [NC]
+RewriteRule ^ /%1%2 [R=301,L,NE]
+
+ErrorDocument 404 /error.php
+ErrorDocument 500 /error.php
+
+
+RewriteRule ^port/([^/]+)$ port.php?slug=$1 [L]
+RewriteRule ^country/([^/]+)$ country.php?slug=$1 [L]
+RewriteRule ^services/([^/]+)$ services.php?slug=$1 [L]
+RewriteRule ^locations\.html$ /areas [R=301,L]
+RewriteRule ^career\.html$ /career [R=301,L]
+RewriteRule ^map\.html$ /areas [R=301,L]
+RewriteRule ^management\.html$ /management [R=301,L]
+RewriteRule ^logistic\.html$ /logistics [R=301,L]
+RewriteRule ^seafarereducations\.html$ /education [R=301,L]
+RewriteRule ^profile\.html$ /company [R=301,L]
+RewriteRule ^offshore\.html$ /onoffshore [R=301,L]
+RewriteRule ^global\.html$ /globalsupply [R=301,L]
+RewriteRule ^media\.html$ /company [R=301,L]
+RewriteRule ^trading\.html$ /food [R=301,L]
+RewriteRule ^ship-supply-turkey\.html$ /ship-supply-turkey [R=301,L]
+RewriteRule ^contact\.html$ /contact [R=301,L]
+RewriteRule ^nordichamburg\.html$ /nordic [R=301,L]
+RewriteRule ^provision\.html$ /provision [R=301,L]
+RewriteRule ^partners\.html$ /partners [R=301,L]
+RewriteRule ^nordic\.html$ /nordic [R=301,L]
+RewriteRule ^kvkk\.html$ /kvkk [R=301,L]
+RewriteRule ^technical\.html$ /technical [R=301,L]
+RewriteRule ^avsgreece\.html$ https://avsgreece.gr/ [R=301,L]
+RewriteRule ^kvkken\.html$ /kvkk [R=301,L]
+RewriteRule ^newvendors\.html$ /newvendors [R=301,L]
+RewriteRule ^vision\.html$ /company [R=301,L]
+RewriteRule ^gallery\.html$ /company [R=301,L]
+RewriteRule ^whyavs\.html$ /company [R=301,L]
+RewriteRule ^people\.html$ /team [R=301,L]
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^education\.html$ /education [R=301,L]
+RewriteRule ^food\.html$ /food [R=301,L]
+RewriteRule ^tr/ikmal /tr/kumanya [R=301,L]
+
+Redirect 301 /education https://www.avsglobalsupply.com/services/education
+Redirect 301 /food https://www.avsglobalsupply.com/services/food-trading
+Redirect 301 /globalsupply https://www.avsglobalsupply.com/services/globalsupply
+Redirect 301 /logistics https://www.avsglobalsupply.com/services/logistics
+Redirect 301 /onoffshore https://www.avsglobalsupply.com/services/onoffshore
+Redirect 301 /provision https://www.avsglobalsupply.com/services/provision
+Redirect 301 /technical https://www.avsglobalsupply.com/services/technical
+Redirect 301 /tr/egitim https://www.avsglobalsupply.com/tr/hizmetler/egitim
+Redirect 301 /tr/gida https://www.avsglobalsupply.com/tr/hizmetler/gida
+Redirect 301 /tr/kiyi-acikdeniz https://www.avsglobalsupply.com/tr/hizmetler/kiyi-acikdeniz
+Redirect 301 /tr/kumanya https://www.avsglobalsupply.com/tr/hizmetler/kumanya
+Redirect 301 /tr/kureselgemitedarigi https://www.avsglobalsupply.com/tr/hizmetler/kuresel-gemi-tedarigi
+Redirect 301 /tr/lojistik https://www.avsglobalsupply.com/tr/hizmetler/lojistik
+Redirect 301 /tr/teknik-hizmetler https://www.avsglobalsupply.com/tr/hizmetler/teknik-hizmetler
+Redirect 301 /tr/teknik-malzeme https://www.avsglobalsupply.com/tr/hizmetler/teknik-malzeme
+Redirect 301 /tsm https://www.avsglobalsupply.com/services/tsm
+Redirect 301 /ship-supply-turkey https://www.avsglobalsupply.com/country/turkey
+Redirect 301 /tr/hizmet-bolgeleri https://www.avsglobalsupply.com/areas
+Redirect 301 /tr/blog-detay/mlc-2006 https://www.avsglobalsupply.com/blog-detail/mlc-2006
+Redirect 301 /www.avsgreece.gr/blog-detail/marpol https://www.avsglobalsupply.com/blog-detail/marpol
+Redirect 301 /tr/management https://www.avsglobalsupply.com/tr/yonetim
+Redirect 301 /tr/career https://www.avsglobalsupply.com/tr/kariyer
+Redirect 301 /tr/sustainability https://www.avsglobalsupply.com/tr/surduruilebilirlik
+Redirect 301 /tr/partners https://www.avsglobalsupply.com/tr/partnerler
+Redirect 301 /tr/advantage https://www.avsglobalsupply.com/tr/avantaj
+Redirect 301 /tr/company https://www.avsglobalsupply.com/tr/sirket
+Redirect 301 /tr/news https://www.avsglobalsupply.com/tr/haberler
+Redirect 301 /tr/newvendors https://www.avsglobalsupply.com/tr/yeni-tedarikci
+Redirect 301 /tr/timeline https://www.avsglobalsupply.com/tr/tarihce
+Redirect 301 /tr/areas https://www.avsglobalsupply.com/areas
+Redirect 301 /www.avsglobalsupply.com/country-detail/Brazil https://www.avsglobalsupply.com/country/brazil
+Redirect 301 /www.avsglobalsupply.com/country/brazil https://www.avsglobalsupply.com/country/brazil
+Redirect 301 /blog/solas https://www.avsglobalsupply.com/blog-detail/solas
+Redirect 301 /blog/marpol https://www.avsglobalsupply.com/blog-detail/marpol
+Redirect 301 /blog/imo https://www.avsglobalsupply.com/blog-detail/imo
+Redirect 301 /tr/blog-detail/imo https://www.avsglobalsupply.com/blog-detail/imo
+
+RewriteRule ^blog-detail/(.*)$ blog-detail.php?slug=$1 [L,QSA]
+RewriteRule ^news-detail/(.*)$ news-detail.php?slug=$1 [L,QSA]
+
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css text/javascript
+  AddOutputFilterByType DEFLATE application/xml application/xhtml+xml application/rss+xml
+  AddOutputFilterByType DEFLATE application/javascript application/x-javascript application/json
+  AddOutputFilterByType DEFLATE image/svg+xml font/opentype font/otf font/ttf
+  AddOutputFilterByType DEFLATE application/font-woff2 application/vnd.ms-fontobject
+  Header append Vary User-Agent
+</IfModule>
+
+<ifModule mod_gzip.c>
+  mod_gzip_on Yes
+  mod_gzip_dechunk Yes
+  mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
+  mod_gzip_item_include mime ^text/.*
+  mod_gzip_item_include mime ^application/x-javascript.*
+</ifModule>
+
+<IfModule mod_headers.c>
+  Header set Access-Control-Allow-Origin "*"
+  Header set Access-Control-Allow-Credentials true
+</IfModule>
