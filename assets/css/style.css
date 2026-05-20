@@ -1,4 +1,4 @@
- 
+
 /* Css For Counsolve */
 
 /************ TABLE OF CONTENTS ***************
@@ -44,7 +44,7 @@
 
 
 
-/*** 
+/***
 
 ====================================================================
   Reset
@@ -68,7 +68,7 @@ html {
 }
 
 
-/*** 
+/***
 
 ====================================================================
   Global Settings
@@ -165,7 +165,7 @@ input,button,select,textarea{
 ul,li{
   list-style:none;
   padding:0px;
-  margin:0px; 
+  margin:0px;
   color: black;
 }
 
@@ -563,7 +563,7 @@ img {
   display: inline-block;
   font-size: 16px;
   line-height: 26px;
-  font-family: 'Urbanist', sans-serif; 
+  font-family: 'Urbanist', sans-serif;
   font-weight: 700;
   padding-left: 25px;
   padding-top: 7px;
@@ -608,7 +608,7 @@ img {
 
 
 
-/*** 
+/***
 
 ====================================================================
                         Home-Page-One
@@ -865,7 +865,7 @@ color: #fff313;
 
 .header-top .social-links li a:hover{
 
-} 
+}
 
 .header-top .social-links li:before{
   position: absolute;
@@ -1161,7 +1161,7 @@ color: #fff313;
   transform: scaleX(0);
   transform-origin: left center;
   cursor:url(../images/icons/cross-out.png),
-  pointer; 
+  pointer;
   z-index: 9999999;
   border-right: 1px solid rgba(255, 255, 255, 0.10);
   transition: transform .65s .3s cubic-bezier(0.7, 0, 0.2, 1);
@@ -1267,7 +1267,7 @@ color: #fff313;
 
 .sidebar-info-contents .content-inner .logo img{
   display:inline-block;
-  max-width:100%; 
+  max-width:100%;
 }
 
 .sidebar-info-contents .content-inner .content-box{
@@ -1309,7 +1309,7 @@ color: #fff313;
 }
 
 .sidebar-info-contents .content-inner .contact-info ul li a:hover{
-  
+
 }
 
 .sidebar-info-contents .content-inner .contact-info h4{
@@ -1435,7 +1435,7 @@ color: #fff313;
 
 .main-menu .navigation > li.current > a,
 .main-menu .navigation > li:hover > a{
-  
+
 }
 
 .main-menu .navigation > li > ul,
@@ -1481,7 +1481,7 @@ color: #fff313;
 
 .main-menu .navigation > li > ul.from-right{
   left:auto;
-  right:0px;  
+  right:0px;
 }
 
 .main-menu .navigation > li > ul > li{
@@ -1569,7 +1569,7 @@ color: #fff313;
   line-height:24px;
   font-size:20px;
   text-align:center;
-  z-index:5;  
+  z-index:5;
   transition: all 500ms ease;
 }
 
@@ -1610,7 +1610,7 @@ color: #fff313;
 
 .main-menu .navigation > li > ul > li > ul.from-right{
   left:auto;
-  right:0px;  
+  right:0px;
 }
 
 .main-menu .navigation > li > ul > li > ul > li{
@@ -1620,7 +1620,7 @@ color: #fff313;
 }
 
 .main-menu .navigation > li > ul > li > ul > li:last-child{
-  border-bottom:none; 
+  border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li > ul > li > a{
@@ -1676,7 +1676,7 @@ color: #fff313;
   line-height:24px;
   font-size:16px;
   font-weight:900;
-  z-index:5;  
+  z-index:5;
 }
 
 .main-menu .navigation > li.dropdown:hover > ul,
@@ -1690,7 +1690,7 @@ color: #fff313;
 .main-menu .navigation li > ul > li.dropdown:hover > ul{
   visibility:visible;
   opacity:1;
-  top: 0%; 
+  top: 0%;
   margin-top: 0px;
 }
 
@@ -1712,7 +1712,7 @@ color: #fff313;
 
 .main-menu .navigation li.current.dropdown .dropdown-btn,
 .main-menu .navigation li:hover .dropdown-btn{
-  
+
 }
 
 .main-menu .navigation li.dropdown ul li.dropdown .dropdown-btn{
@@ -1789,13 +1789,13 @@ color: #fff313;
 }
 
 .mobile-menu .navbar-collapse{
-  display:block !important; 
+  display:block !important;
 }
 
 .mobile-menu .nav-logo{
   position:relative;
   padding:50px 25px;
-  text-align:left;  
+  text-align:left;
   padding-bottom: 100px;
 }
 
@@ -1922,7 +1922,7 @@ color: #fff313;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
-  transition: all 500ms ease; 
+  transition: all 500ms ease;
 }
 
 .mobile-menu .navigation li ul li > a{
@@ -1942,7 +1942,7 @@ color: #fff313;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
-  transition: all 500ms ease; 
+  transition: all 500ms ease;
 }
 
 .mobile-menu .navigation li.current > a:before{
@@ -1966,7 +1966,7 @@ color: #fff313;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
-  transition: all 500ms ease; 
+  transition: all 500ms ease;
   z-index:5;
 }
 
@@ -1974,7 +1974,7 @@ color: #fff313;
   color: #ffffff;
   -webkit-transform:rotate(90deg);
   -ms-transform:rotate(90deg);
-  transform:rotate(90deg);  
+  transform:rotate(90deg);
 }
 
 .mobile-menu .navigation li > ul,
@@ -2003,11 +2003,11 @@ color: #fff313;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
-  transition: all 500ms ease; 
+  transition: all 500ms ease;
 }
 
 .mobile-menu .social-links li a:hover{
-  
+
 }
 
 div#mCSB_1_container{
@@ -2040,7 +2040,7 @@ div#mCSB_1_container{
 }
 
 .mobile-menu .contact-info ul li a:hover{
-  
+
 }
 
 .mobile-menu .contact-info ul li:last-child{
@@ -2062,7 +2062,7 @@ div#mCSB_1_container{
 }
 
 .tabs-box .tab.active-tab{
-  display:block;  
+  display:block;
 }
 
 .tabs-box .tab{
@@ -2084,12 +2084,12 @@ div#mCSB_1_container{
 .banner-section{
   position: relative;
 }
-  
+
 .banner-carousel .slide-item{
   position: relative;
   padding: 159px 0px 170px 0px;
 }
-  
+
 .banner-carousel .slide-item:before{
   position: absolute;
   content: '';
@@ -2101,7 +2101,7 @@ div#mCSB_1_container{
   opacity: 0.5;
   z-index: 1;
 }
-  
+
 .banner-carousel .slide-item .image-layer{
   position: absolute;
   left:0;
@@ -2120,13 +2120,13 @@ div#mCSB_1_container{
   -o-transition: all 8000ms linear;
   transition: all 8000ms linear;
 }
-  
+
 .banner-carousel .active .slide-item .image-layer{
   -webkit-transform:scale(1.25);
   -ms-transform:scale(1.25);
   transform:scale(1.25);
 }
-  
+
 .banner-carousel .content-box{
   position: relative;
   width: 100%;
@@ -3217,7 +3217,7 @@ div#mCSB_1_container{
   background: rgba(255, 255, 255, 0.10);
   border-radius: 25px;
 }
-  
+
 .progress-box .bar-inner{
   position:relative;
   display:block;
@@ -3228,7 +3228,7 @@ div#mCSB_1_container{
   -ms-transition:all 1500ms ease;
   -o-transition:all 1500ms ease;
   -moz-transition:all 1500ms ease;
-  transition:all 1500ms ease; 
+  transition:all 1500ms ease;
 }
 
 .growth-section .growth-content{
@@ -4852,12 +4852,12 @@ div#mCSB_1_container{
 }
 
 .accordion-box .block .acc-content.current{
-  display:block;  
+  display:block;
 }
 
 .faq-section .content-box{
   position: relative;
-  display: block;   
+  display: block;
 }
 
 .accordion-box{
@@ -5554,7 +5554,7 @@ div#mCSB_1_container{
 
 
 
-/*** 
+/***
 
 ====================================================================
                         Home-Page-Two
@@ -7936,7 +7936,7 @@ div#mCSB_1_container{
 }
 
 
-/*** 
+/***
 
 ====================================================================
                         Home-Page-Three
@@ -9597,7 +9597,7 @@ div#mCSB_1_container{
 
 .testimonial-style-three .image-box .image img{
   width: 100%;
-  border-radius: 300px 300px 0px 300px; 
+  border-radius: 300px 300px 0px 300px;
 }
 
 .testimonial-style-three .image-box .image:before{
@@ -10166,7 +10166,7 @@ div#mCSB_1_container{
 }
 
 .news-block-two .inner-box .content-box .link a:hover{
-  
+
 }
 
 .news-block-two .inner-box .content-box .share-box{
@@ -10480,7 +10480,7 @@ div#mCSB_1_container{
 
 
 
-/*** 
+/***
 
 ====================================================================
                         Home-Page-Four
@@ -12464,7 +12464,7 @@ div#mCSB_1_container{
 }
 
 .news-block-three .inner-box .link-box a:hover{
-  
+
 }
 
 .post-block-two{
@@ -12558,12 +12558,12 @@ div#mCSB_1_container{
   color: #f04824;
 }
 
-.home_4 .subscribe-section.alternat-2 .form-inner .form-group input[type='email'], 
+.home_4 .subscribe-section.alternat-2 .form-inner .form-group input[type='email'],
 .home_4 .subscribe-section.alternat-2 .form-inner .form-group button[type='submit']{
   background: #fe4b24;
 }
 
-.home_4 .subscribe-section.alternat-2 .form-inner .form-group input[type='email'], 
+.home_4 .subscribe-section.alternat-2 .form-inner .form-group input[type='email'],
 .home_4 .subscribe-section.alternat-2 .form-inner .form-group button[type='submit']{
   border-color: #fe8a71;
 }
@@ -12898,7 +12898,7 @@ div#mCSB_1_container{
 }
 
 
-/*** 
+/***
 
 ====================================================================
                         Service-Page
@@ -14463,7 +14463,7 @@ div#mCSB_1_container{
 }
 
 .news-block-four .inner-box .link a:hover{
-  
+
 }
 
 .news-block-four .inner-box .share-box{
@@ -16182,21 +16182,3 @@ div#mCSB_1_container{
     margin: 0px 1px!important;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -340,12 +340,12 @@
 	color: #43a5e6;
 }
 
-.header-style-two .main-menu .navigation > li.current > a, 
+.header-style-two .main-menu .navigation > li.current > a,
 .header-style-two .main-menu .navigation > li:hover > a{
 	color: #43a5e6;
 }
 
-.header-style-two .main-menu .navigation > li > ul > li > a:hover, 
+.header-style-two .main-menu .navigation > li > ul > li > a:hover,
 .header-style-two .main-menu .navigation > li > .megamenu li > a:hover{
 	color: #43a5e6;
 }
@@ -627,7 +627,7 @@
 
 /** home-3 **/
 
-.home_3 .main-menu .navigation > li.current > a, 
+.home_3 .main-menu .navigation > li.current > a,
 .home_3 .main-menu .navigation > li:hover > a{
 	color: #2c9497;
 }
@@ -636,7 +636,7 @@
 	color: #2c9497;
 }
 
-.home_3 .main-menu .navigation > li > ul > li > a:hover, 
+.home_3 .main-menu .navigation > li > ul > li > a:hover,
 .home_3 .main-menu .navigation > li > .megamenu li > a:hover{
 	color: #2c9497;
 }
@@ -970,12 +970,12 @@
 	background: #fe4b24;
 }
 
-.header-style-four .main-menu .navigation > li.current > a, 
+.header-style-four .main-menu .navigation > li.current > a,
 .header-style-four .main-menu .navigation > li:hover > a{
 	color: #fe4b24;
 }
 
-.header-style-four .main-menu .navigation > li > ul > li > a:hover, 
+.header-style-four .main-menu .navigation > li > ul > li > a:hover,
 .header-style-four .main-menu .navigation > li > .megamenu li > a:hover{
 	color: #fe4b24;
 }
@@ -1610,34 +1610,3 @@
 .contact-style-two .pattern-layer .pattern-2{
 	border: 1px solid #fff212;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
